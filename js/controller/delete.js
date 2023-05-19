@@ -1,6 +1,6 @@
 function deleteData(IDHAPUS) {
   var presensiId = IDHAPUS;
-  var target_url = "https://ws-ulbi.herokuapp.com/delete/" + presensiId;
+  var target_url = "https://jaehyun.herokuapp.com/delete/" + presensiId;
 
   var requestOptions = {
     method: "DELETE",
